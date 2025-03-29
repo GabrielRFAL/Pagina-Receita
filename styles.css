@@ -1,8 +1,49 @@
-head {
-    background-color: blueviolet;
+body {
+    background-color: azure;
+    font-family: sans-serif;
+    margin: 20px;
+    scroll-behavior: smooth;
 }
 
-body {
-    background-color: white;
-    font-family: sans-serif;
+header {
+    background-color: rgb(131, 93, 167);
+    border-radius: 8px;
+    justify-items: center;
+}
+
+button {
+    border-radius: 8px;
+    display: flexbox;
+    margin: 5px;
+}
+
+.titulo {
+    background-color: rgb(131, 93, 167);
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.titulo img {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.sumario {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+
+#ingredientes {
+    justify-content: center;
+    text-align: justify;
+}
+
+#preparo {
+    justify-content: center;
+    text-align: justify;
 }
