@@ -19,7 +19,7 @@ button {
 
 .titulo {
     background-color: rgb(131, 93, 167);
-    color: white;
+    color: black;
     display: grid;
     text-align: center;
     justify-content: center;
@@ -36,6 +36,7 @@ button {
     justify-content: center;
     text-align: center;
     display: grid;
+    text-transform: uppercase;
 }
 
 #ingredientes {
